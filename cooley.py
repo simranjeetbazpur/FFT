@@ -43,7 +43,7 @@ def fft_rec(X):
 x_values = np.arange(0, N, 1)
  
 x = np.sin((2*np.pi*x_values / 4.0)) # 4 - 2048Hz
-x += np.sin((2*np.pi*x_values /16.0)) # 64 - 512Hz
+x += np.sin((2*np.pi*x_values /16.0)) # 16 - 512Hz
 #calling fft 
 X = fft(x)
  
