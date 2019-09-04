@@ -1,8 +1,11 @@
 # Cooley Tukey FFT
 
 <img src="http://www.alwayslearn.com/DFT%20and%20FFT%20Tutorial/images/TimeWaveToDFT2.jpg"/>
+A fast Fourier transform (FFT) is an algorithm that computes the discrete Fourier transform (DFT) of a sequence, or its inverse (IDFT). Fourier analysis converts a signal from its original domain (often time or space) to a representation in the frequency domain and vice versa.
 
-A fast Fourier transform (FFT) is an algorithm that computes the discrete Fourier transform (DFT) of a sequence, or its inverse (IDFT). Fourier analysis converts a signal from its original domain (often time or space) to a representation in the frequency domain and vice versa. 
+
+
+ 
 
 ## Language Used
 Python 3.6
