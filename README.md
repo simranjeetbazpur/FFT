@@ -11,6 +11,7 @@ Python 3.6
 cooley.py file gives the implememntation of the Cooley Tuckey FFT algorithm.
 
 ## Psuedo Code
+<pre>
 X0,...,N−1 ← ditfft2(x, N, s):             DFT of (x0, xs, x2s, ..., x(N-1)s):
     if N = 1 then
         X0 ← x0                                      trivial size-1 DFT base case
@@ -23,3 +24,11 @@ X0,...,N−1 ← ditfft2(x, N, s):             DFT of (x0, xs, x2s, ..., x(N-1)s
             Xk+N/2 ← t − exp(−2πi k/N) Xk+N/2
         endfor
     endif
+    </pre>
+
+## References
+<pre>
+[1] Gauss, Carl Friedrich (1876) [n.d.]. Theoria Interpolationis Methodo Nova Tractata. Carl Friedrich Gauss Werke. Band 3. Göttingen: Königliche Gesellschaft der Wissenschaften. pp. 265–327.
+[2] Heideman, M. T., D. H. Johnson, and C. S. Burrus, "Gauss and the history of the fast Fourier transform," IEEE ASSP Magazine, 1, (4), 14–21 (1984)
+[3] Cooley, James W.; Tukey, John W. (1965). "An algorithm for the machine calculation of complex Fourier series". Math. Comput. 19 (90): 297–301. doi:10.2307/2003354. JSTOR 2003354.
+</pre>
